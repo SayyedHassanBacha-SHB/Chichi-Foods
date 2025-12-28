@@ -151,6 +151,10 @@ section{
     width: 100vw;
     height: 100vh;
 }
+
+a.reset {
+    all: revert;
+    text-decoration: none;}    
 /* <!-------------  Product details Section --------------> */
 
 
@@ -447,3 +451,12 @@ header.sticky{
         flex-wrap: wrap;
     }
 }
+
+.product-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
